@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@700&family=Open+Sans:wght@400;700&family=Lora:wght@400;700&family=Poppins:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: 106 184 238; /* #6ab8ee */
+    --color-primary-hover: 90 167 221; /* #5aa7dd */
+    --color-primary-dark: 74 150 204; /* #4a96cc */
+  }
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #6ab8ee;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
